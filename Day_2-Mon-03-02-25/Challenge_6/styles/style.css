@@ -67,3 +67,29 @@ footer {
     display: block;
     padding-left: 10px;
 }
+
+.results-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.show-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5208F5;
+    background: white;
+    border: 2px solid #5208F5;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.show-more-button:hover {
+    background: #5208F5;
+    color: white;
+}
