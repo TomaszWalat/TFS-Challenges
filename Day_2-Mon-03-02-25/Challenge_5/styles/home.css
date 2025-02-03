@@ -1,0 +1,99 @@
+/* global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/stars.jpg);
+    background-size: contain;
+    color: #fff;
+    margin: 0;
+    background-attachment: fixed;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+/* text */
+h2 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* media */
+img {
+    width: 100%;
+}
+
+/* tables */
+table {
+    border: 2px solid rgba(255 255 255 / 0.4);
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    padding: 20px;
+    background: rgba(255 255 255 / 0.2);
+    text-align: left;
+}
+td {
+    padding: 20px;
+}
+td:nth-child(odd) {
+    background: rgba(255 255 255 / 0.1);
+}
+
+/* forms */
+.input {
+    margin-bottom: 30px;
+}
+
+input[type=text], 
+textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff0;
+}
+
+/* header */
+
+
+/* nav */
+
+
+/* main */
+
+
+/* rows */
+
+
+/* columns */
+
+
+/* footer */
