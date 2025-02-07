@@ -1,33 +1,32 @@
-.header-banner{
+.header-banner {
     border: 8px solid black;
     width: 70%;
     justify-content: center; 
     margin-left: 180px;
   
 }
-.head-div{
+.head-banner__div {
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 23px;
+    display: flex;
 }
 
-.img-cls{
+.head-banner__img {
     height: 100px;
     width:7%;
     padding-top: 25px;
     
 }
-.head-div{
-    padding-top: 30px;
-    display: flex;
-}
-.header-banner__title{
+
+.header-banner__title {
     color:grey;
     padding-top: 15px;
 
 }
-.main-nav__list{
+
+.main-nav__list {
     margin: 5px;
     padding: 10px;
     padding-left: 900px;
@@ -38,7 +37,7 @@
     text-align: center;
     width:50%;
 }
-.main-nav__link{
+.main-nav__link {
    color: black;
    
 }
