@@ -1,0 +1,13 @@
+.form__button{
+    background-color: black;
+    color: yellow;
+    margin-top: 50px;
+    width: 70px;
+}
+.form__input{
+    width:30%;
+    height: 50px;
+}
+.form__input-box{
+    width:200%;
+}
