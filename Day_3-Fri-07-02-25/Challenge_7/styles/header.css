@@ -29,7 +29,7 @@
 .main-nav__list {
     margin: 5px;
     padding: 10px;
-    padding-left: 900px;
+    padding-left: 60%;
     box-sizing: border-box;
     list-style: none;
     display: grid;
@@ -39,5 +39,10 @@
 }
 .main-nav__link {
    color: black;
-   
+   padding: 15px 20px;
+}
+.main-nav__link:hover{
+    background-color: black;
+    color: yellow;
+
 }
