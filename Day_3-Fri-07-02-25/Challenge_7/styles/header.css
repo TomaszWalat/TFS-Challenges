@@ -1,8 +1,8 @@
 .header-banner {
     border: 8px solid black;
-    width: 70%;
+    width: 90%;
     justify-content: center; 
-    margin-left: 180px;
+    margin: 50px 50px;
   
 }
 .head-banner__div {
@@ -29,7 +29,7 @@
 .main-nav__list {
     margin: 5px;
     padding: 10px;
-    padding-left: 60%;
+    padding-left: 75%;
     box-sizing: border-box;
     list-style: none;
     display: grid;
