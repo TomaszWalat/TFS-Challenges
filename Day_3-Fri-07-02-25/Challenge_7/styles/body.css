@@ -35,3 +35,10 @@ body {
     background-color: black;
     color: yellow;
 }
+.card__img{
+    width:100%;
+    padding-left: 2px;
+    border-top: 6px solid black;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+}
