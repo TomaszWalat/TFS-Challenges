@@ -1,11 +1,20 @@
-.card1{
+
+.main-content__row{
+    display: flex;
+}
+.main-content__row--reversed{
+   flex-direction: row-reverse;
+}
+.card{
     display: block;
     background-color: antiquewhite;
     width:48%;
     padding-left: 10px;
     padding-bottom: 10px;
-    margin-left: 45%;
-}
+    margin-top:20px;
+    
+  }
+/* 
 .card2{
     display: block;
     background-color: antiquewhite;
@@ -22,7 +31,7 @@
     padding-left: 10px;
     padding-bottom: 10px;
     margin-left: 45%;
-}
+} */
 .card__button{
     background-color: black;
     color: yellow;
