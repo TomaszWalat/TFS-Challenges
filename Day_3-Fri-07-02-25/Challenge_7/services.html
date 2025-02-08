@@ -4,29 +4,25 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>My Company London</title>
-        <link rel="stylesheet" href="styles/header.css" />
-        <link rel="stylesheet" href="styles/body.css" />
+        
         <!-- Styles -->
+        <link rel="stylesheet" href="styles/styles.css" />
 
     </head>
     <body>
-        <header class="header-banner">
-            <div class="head-banner__div">
-                <img class ="head-banner__img" src="./images/logo.png">
-                <h1 class="header-banner__title">MY COMPANY <br> <span style="color: black;">LONDON</span></h1>
+        <header class="header">
+            <div class="header-banner">
+                <div class="logo">
+                    <img src="images/MyCompanyLondon_logo.png">
+                    <h1>MY COMPANY<br><span>LONDON</span></h1>
+                </div>
             </div>
         </header>
         <nav class="main-nav">
-            <ul class="main-nav__list">
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="home.html">Home</a>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="services.html">Services</a>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="contact.html">Contact</a>
-                </li>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a class="main-nav__current-page-link" href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <main class="main-content">
@@ -34,13 +30,13 @@
                 <div class="card">
                     <h2 class="card__title">Services</h2>
                     <div class="card__content">
-                        <p class="card__text">
+                        <p>
                             Sed vestibulum posuere dis nascetur, vitae consectetur. Penatibus habitant aliquam in nascetur cursus mattis interdum fusce tempus.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="main-content__row main-content__row--reversed">
+            <div class="main-content__row main-content__row-content--right">
                 <div class="card">
                     <h2 class="card__title">Condidates</h2>
                     <table class="table">
@@ -100,37 +96,32 @@
                     </table>
                 </div>
             </div>
-            <div class="main-content__row main-content__row-content--centred">
-                <div class="card"> 
-                    <img class="card__img" src="./images/london.png" alt=""/>
+            <div class="main-content__row main-content__row-content--center">
+                <div class="card image-card"> 
+                    <img src="images/pictureOfLondon.jpg" alt="A picture of Tower Bridge over the river Thames, in London."/>
                 </div>
             </div>
-            <div class="main-content__row main-content__row--reversed">
+            <div class="main-content__row main-content__row-content--right">
                 <div class="card">
                     <h2 class="card__title">Lorem ipsum</h2>
-                    <div class="card__content">
-                        <p class="card__text">
-                            Lorem ipsum odor amet, consectetuer adipiscing elit. Sociosqu maximus non dapibus odio nunc congue a. Cras tellus pharetra etiam ipsum duis interdum luctus. Cras tellus pharetra etiam ipsum duis interdum luctus.
-                        </p>
-                        <p class="card__text">
-                            Egestas nisl sociosqu suspendisse duis posuere fames nullam. Sed vestibulum posuere dis nascetur, vitae consectetur. Sed vestibulum posuere dis nascetur, vitae consectetur. Penatibus habitant aliquam in nascetur cursus mattis interdum fusce tempus.
+                    <div class="card__content ">
+                        <p class="text-in-columns">
+                            Lorem ipsum odor amet, consectetuer adipiscing elit. Sociosqu maximus non dapibus odio nunc congue a. Cras tellus pharetra etiam ipsum duis interdum luctus. Cras tellus pharetra etiam ipsum duis interdum luctus. Egestas nisl sociosqu suspendisse duis posuere fames nullam. Sed vestibulum posuere dis nascetur, vitae consectetur. Sed vestibulum posuere dis nascetur, vitae consectetur. Penatibus habitant aliquam in nascetur cursus mattis interdum fusce tempus.
                         </p>
                     </div>
-                    <button class="card__button">Read more</button>
                 </div>
             </div>
-            <div class="main-content__row">
+            <div class="main-content__row main-content__row-content--left">
                 <div class="card">
                     <h2 class="card__title">Dolor sit amet</h2>
                     <div class="card__content">
-                        <p class="card__text">
+                        <p>
                             Lorem ipsum odor amet, consectetuer adipiscing elit. Sociosqu maximus non dapibus odio nunc congue a. Cras tellus pharetra etiam ipsum duis interdum luctus. 
                         </p>
-                        <p class="card__text">
+                        <p>
                             Cras tellus pharetra etiam ipsum duis interdum luctus. Egestas nisl sociosqu suspendisse duis posuere fames nullam. Sed vestibulum posuere dis nascetur, vitae consectetur. Sed vestibulum posuere dis nascetur, vitae consectetur. Penatibus habitant aliquam in nascetur cursus mattis interdum fusce tempus.
                         </p>
                     </div>
-                    <button class="card__button">Read more</button>
                 </div>
             </div>
         </main>

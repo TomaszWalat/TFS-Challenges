@@ -25,4 +25,19 @@
         font-size: 24px;
         line-height: 1.5;
     }
+
+}
+
+.text-in-columns {
+    columns: 2;
+}
+
+.image-card {
+    border: solid 30px var(--site-accent-color-1);
+    background-color: var(--site-accent-color-1);
+    padding: 0;
+
+    img {
+        width: 100%;
+    }
 }
