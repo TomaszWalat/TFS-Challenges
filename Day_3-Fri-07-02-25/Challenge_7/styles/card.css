@@ -1,0 +1,17 @@
+.card {
+    display: block;
+    background-color: antiquewhite;
+    width: 80%;
+    /*padding-left: 10px;*/
+    /*padding-bottom: 10px;*/
+    /*margin-top:20px;*/
+    border-bottom: 6px solid black;
+}
+
+.card__title {
+
+}
+
+.card__content {
+    
+}
