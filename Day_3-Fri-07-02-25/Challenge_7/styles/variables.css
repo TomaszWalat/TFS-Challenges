@@ -1,12 +1,17 @@
 
 
 :root {
+    /* Site variables */
     --site-background-color: yellow;
     --site-accent-color-1: black;
     --site-accent-color-2: yellow;
     --site-font-family: "Josefin Sans", serif;
 
-
+    /* Logo banner variables */
     --banner-txt-color-1: gray;
     --banner-txt-color-2: black;
+
+    /* Card variables */
+    --card-background-color-1: lightgrey;
+    --card-background-color-2: white;
 }
