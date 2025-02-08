@@ -14,4 +14,10 @@
     /* Card variables */
     --card-background-color-1: lightgrey;
     --card-background-color-2: white;
+
+    /* Table variables */
+    --table-border-color: lightgrey;
+    --table-font-family: "IBM Plex Sans", serif;
+    --table-button-color: gainsboro;
+    --table-button-border-color: silver;
 }
