@@ -4,57 +4,54 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>My Company London</title>
-        <link rel="stylesheet" href="styles/header.css" />
-        <link rel="stylesheet" href="styles/body.css" />
-        <link rel="stylesheet" href="styles/contact.css" />
+
         <!-- Styles -->
+        <link rel="stylesheet" href="styles/styles.css" />
 
     </head>
     <body>
-        <header class="header-banner">
-            <div class="head-banner__div">
-                <img class ="head-banner__img" src="./images/logo.png">
-                <h1 class="header-banner__title">MY COMPANY <br> <span style="color: black;"> LONDON</span></h1>
+        <header class="header">
+            <div class="head-banner">
+                <div class="logo">
+                    <img class ="head-banner__img" src="images/MyCompanyLondon_logo.png">
+                    <h1>MY COMPANY<br><span>LONDON</span></h1>
+                </div>
             </div>
         </header>
         <nav class="main-nav">
-            <ul class="main-nav__list">
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="home.html">Home</a>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="services.html">Services</a>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="contact.html">Contact</a>
-                </li>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a class="main-nav__current-page-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <main class="main-content">
-            <div class="main-content__row">
+            <div class="main-content__row main-content__row-content--left">
                 <div class="card">
-                    <form class="form">
-                        <h2 class="form__title">Contact Us</h2>
-                        <p class="form__txt">
+                    <h2 class="card__title">Contact Us</h2>
+                    <div class="card__content">
+                        <p>
                             If you would like to get in touch with us please use the form below 
                         </p>
-                        <div class="form__input">
-                            <label for="name">Name</label><br>
-                            <input class="form__input-box" type="text" name="name" placeholder="Your name" required/>
-                        </div>
-                        <div class="form__input">
-                            <label for="name">Email</label><br>
-                            <input class="form__input-box" type="text" name="email" placeholder="Your email" required/>
-                        </div>
-                        <div class="form__input">
-                            <label for="name">Message</label><br>
-                            <textarea name="message" placeholder="Your message" rows="4", cols="50" required></textarea>
-                        </div>
-                        <button class="form__button">Send</button>
-                    </form>
+                        <form class="form">
+                            <div class="form__input">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" placeholder="Your name" required/>
+                            </div>
+                            <div class="form__input">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" placeholder="Your email" required/>
+                            </div>
+                            <div class="form__input">
+                                <label for="message">Message</label>
+                                <textarea name="message" placeholder="Your message" rows="10", cols="10" required></textarea>
+                            </div>
+                            <button class="button">Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="main-content__row main-content__row--reversed">
+            <div class="main-content__row main-content__row-content--right">
                 <div class="card">
                     <h2 class="card__title">Map</h2>
                     <div class="card__content">
