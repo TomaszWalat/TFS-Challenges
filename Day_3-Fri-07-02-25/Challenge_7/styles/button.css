@@ -1,4 +1,16 @@
 .button {
-    background-color: black;
-    color: yellow;
+    background-color: var(--site-accent-color-1);
+    color: var(--site-accent-color-2);
+    width: 15%;
+    padding: 12px 0;
+    font-family: var(--site-font-family);
+    font-size: 20px;
+    line-height: 1;
+    border: none;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: var(--site-accent-color-2);
+    color: var(--site-accent-color-1);
 }
