@@ -2,26 +2,31 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <mata name="viewport" content="width=device-width initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Echos in the void</title>
 
-        <!-- Stlyes -->
-         <link rel="stylesheet" href="styles/styles.css"/>
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles/styles.css" />
+
+        <!-- Scripts -->
+        <script defer src="scripts/profanityFilter.js"></script>
+        <script defer src="scripts/whispering.js"></script>
+
     </head>
-    <body>
+
+    <body class="body">
         <header>
 
         </header>
-        <main>
-            <div class="main-content">
-                <div class="the-void">
+        <main class="main-content">
+            <div class="the-void">
 
-                </div>
-                <div class="the-edge">
-                    <form class="form">
-                        <input type="text" name="whisper" placeholder="Whisper something into the void..."/>
-                    </form>
-                </div>
+            </div>
+            <div class="the-edge">
+                <form class="whisper-form">
+                    <input class="user-input" type="text" name="whisper-into-the-void" placeholder="Whisper something into the void..."/>
+                </form>
+                <button class="whisper-button">Whisper</button>
             </div>
         </main>
         <footer>
