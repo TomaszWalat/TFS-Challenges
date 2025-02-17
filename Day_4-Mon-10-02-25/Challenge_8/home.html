@@ -3,34 +3,44 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Echos in the void</title>
+        <title>Recime - Recipe Me</title>
 
         <!-- Styles -->
         <link rel="stylesheet" href="styles/styles.css" />
 
-        <!-- Scripts -->
-        <script defer src="scripts/profanityFilter.js"></script>
-        <script defer src="scripts/whispering.js"></script>
+        <!-- JS Scripts -->
+        <script defer src="scripts/recipeCard.js"></script>
+        <script defer src="scripts/search.js"></script>
 
     </head>
-
-    <body class="body">
-        <header>
-
-        </header>
-        <main class="main-content">
-            <div class="the-void">
-
+    <body>
+        <header class="top-bar">
+            <div class="header-title">
+                <h1>Recime</h1>
             </div>
-            <div class="the-edge">
-                <form class="whisper-form">
-                    <input class="user-input" type="text" name="whisper-into-the-void" placeholder="Whisper something into the void..."/>
+            <div class="header-search-bar">
+                <form role="search" mathod="post">
+                    <input class="user-input" type="text" name="search-box" placeholder="What we cookin' good lookin'?" />
                 </form>
-                <button class="whisper-button">Whisper</button>
+                    <button class="search-button">Search</button>
             </div>
-        </main>
-        <footer>
+        </header>
+        <nav class="main-nav">
 
+        </nav>
+        <main class="main-content">
+            <div class="search-results">
+
+            </div>
+            <!-- <div class="main-search-bar">
+                <form role="search">
+                    <input type="search" role="searchbox" placeholder="What we cookin' good lookin'?" />
+                    <button class="search-button">Search</button>
+                </form>
+            </div> -->
+        </main>
+        <footer class="footer-bar">
+            
         </footer>
     </body>
 </html>

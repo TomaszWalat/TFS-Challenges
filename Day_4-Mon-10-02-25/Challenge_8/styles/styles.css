@@ -1,5 +1,7 @@
+@import url("resets.css");
 @import url("variables.css");
-@import url("body.css");
+@import url("header.css");
+@import url("nav.css");
 @import url("main.css");
-@import url("form.css");
-@import url("button.css");
+@import url("card.css");
+@import url("footer.css");

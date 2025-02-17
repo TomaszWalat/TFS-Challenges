@@ -1,10 +1,10 @@
 const apiURL = "https://www.purgomalum.com/service/json?text=";
 
-async function censorProfanity_old(whisper) {
+function censorProfanity_old(whisper) {
 
     let request = apiURL + whisper;
 
-    await fetch(request)
+    fetch(request)
         .then((response) => response.json())
         .then((data) => {
             console.log("response data : ", data);

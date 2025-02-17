@@ -1,3 +1,24 @@
 .main-content {
+
+}
+@media (min-width: 900px) {
+    .main-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.search-results {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.main-search-bar {
     
+    display: flex;
+    justify-content: center;
 }
